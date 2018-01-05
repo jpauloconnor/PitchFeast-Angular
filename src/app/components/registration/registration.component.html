@@ -1,0 +1,18 @@
+<h1>Register.</h1>
+<h4>Create a new account.</h4>
+<hr>
+
+<form (ngSubmit)="onSubmit()" [formGroup]="_registerForm">
+  <div>
+    <div>
+        <input placeholder="Email" type="email" required/>
+    </div>
+    <div>
+        <input placeholder="Password" type="password" required/>
+    </div>
+    <div>
+        <input placeholder="Confirm Password" type="password" required/>
+    </div>
+  </div>
+  <button class="nav-btn" color="primary" type="submit">Register</button>
+</form>
