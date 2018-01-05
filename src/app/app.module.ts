@@ -7,9 +7,13 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AuthService } from './services/auth.service';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
+import { LoginComponent } from './components/login/login.component';
+import { EventsComponent } from './components/events/events.component';
 
 const routes = [
   { path: 'register', component: RegistrationComponent },
+  { path: 'login', component: LoginComponent },
+  { path: 'events', component: EventsComponent },
   { path: '**', component: RegistrationComponent }
 ]
 
@@ -17,7 +21,9 @@ const routes = [
   declarations: [
     AppComponent,
     NavComponent,
-    RegistrationComponent
+    RegistrationComponent,
+    LoginComponent,
+    EventsComponent
   ],
   imports: [
     BrowserModule,
