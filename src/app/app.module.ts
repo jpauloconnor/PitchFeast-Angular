@@ -17,6 +17,8 @@ const routes = [
   { path: '**', component: RegistrationComponent }
 ]
 
+import { PaymentComponent } from './components/payment/payment.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,7 +35,8 @@ const routes = [
     HttpClientModule
   ],
   providers: [
-    AuthService
+    AuthService,
+    PaymentComponent
   ],
   bootstrap: [AppComponent]
 })
