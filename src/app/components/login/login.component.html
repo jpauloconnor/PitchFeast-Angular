@@ -1,0 +1,17 @@
+<h1>Login.</h1>
+<h4>Use a local acount to login</h4>
+<hr>
+
+<form #f="ngForm" (ngSubmit)="onSubmit(f)" [formGroup]="_loginForm" >
+  <div>
+    <div>
+        <input placeholder="Email" formControlName="email" type="email" required/>
+    </div>
+    <div>
+        <input placeholder="Password" formControlName="password" type="password" required/>
+    </div>
+  </div>
+  <button class="nav-btn" color="primary" type="submit">Login</button>
+</form>
+<br>
+<!-- <a routerLink="/register">Register as a new user</a> -->
