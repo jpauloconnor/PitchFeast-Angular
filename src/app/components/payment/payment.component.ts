@@ -16,7 +16,7 @@ export class PaymentComponent implements OnInit {
 
   openCheckout() {
     var handler = (<any>window).StripeCheckout.configure({
-      key: 'sk_test_avZQTtZbzC7UiORO5J1cQ8IU',
+      key: 'pk_test_2sfTtVEi5xtpkjO75tnXOKV6',
       locale: 'auto',
       token: function (token: any) {
         // You can access the token ID with `token.id`.

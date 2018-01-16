@@ -1,0 +1,50 @@
+
+.secondlayer{
+    clear: left;
+    background-color: #f8f8f8;
+    margin-top: 10ch;
+    height:500px;
+}
+
+.p1{
+    text-align: left;
+    font-size: 50px;
+    font-family: times, Times New Roman ,times-roman,gerrgia,serif;
+    font-style: italic;
+    font-weight: bolder;
+    padding: 60px;
+}
+
+.eventbutton{
+  position: relative;
+    left:18ch;
+    Width:200px;;
+    font-size: 25px;
+    font-style: normal;
+    top:-21px;
+
+    
+}
+
+
+#button{
+    position: relative;
+    left:45ch;
+    margin-top: -2ch;
+    font-size: 20px;
+    font-style: normal;
+    top:-50px;
+    
+    
+
+}
+    
+.image1{
+    float: right;
+    margin-top: 0ch;
+}
+
+    
+
+
+
