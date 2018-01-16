@@ -1,30 +1,24 @@
-
-
 #pitch-image {
     width: 380px;
     height: 152px;
     object-fit: cover;
     margin-top: 10px;
     margin-left: 320px;
-
 }
 
 .menu{
-    
     position: absolute;
-    top:54px;
+    top:-102px;
     width: 602px;
     height: 66px;
     left: 750px;
-
 } 
 
 .menuItem { 
-    float: left;
+    float:left;
     list-style-type: none;
     margin: 10px;
     border-right: 1px solid black;
-    
 }
 
 
@@ -37,7 +31,6 @@ a{
     text-decoration: none;
 }
     
-
 #TEXT {
 
     font-size: 21px;
@@ -63,27 +56,22 @@ a{
     width: 53px;
     height: 53px;
     object-fit: cover;
-
-
 }
 
 #LnkBr4-rgc{
     position: relative;
     left:1200px;
     top:2px;
-    margin-top: -8ch
-
-    
+    margin-top: -8ch    
 }
-
 
 .lb1imageItem{
     float: left;
     list-style-type: none;
     margin-right: 10px;
-    
-    
 }
+
+
 
 
 

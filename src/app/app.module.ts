@@ -10,10 +10,12 @@ import { RouterModule } from '@angular/router';
 import { LoginComponent } from './components/login/login.component';
 import { EventsComponent } from './components/events/events.component';
 
+
 const routes = [
   { path: 'register', component: RegistrationComponent },
   { path: 'login', component: LoginComponent },
   { path: 'events', component: EventsComponent },
+  { path: 'payment', component: PaymentComponent },
   { path: '**', component: RegistrationComponent }
 ]
 
@@ -25,14 +27,16 @@ import { PaymentComponent } from './components/payment/payment.component';
     NavComponent,
     RegistrationComponent,
     LoginComponent,
-    EventsComponent
+    EventsComponent,
+    PaymentComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     ReactiveFormsModule,
     RouterModule.forRoot(routes),
-    HttpClientModule
+    HttpClientModule,
+    
   ],
   providers: [
     AuthService,
